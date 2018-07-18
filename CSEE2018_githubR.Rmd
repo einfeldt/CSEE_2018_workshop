@@ -1,0 +1,24 @@
+---
+title: "CSEE_2018_githubR"
+author: "Anthony Einfeldt"
+date: "July 18, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+R chunk with eval
+```{r echo=T}
+x <- 2+2
+x
+```
+Without eval
+```{r echo=F}
+x <- 2+2
+x
+```
+
+
+
